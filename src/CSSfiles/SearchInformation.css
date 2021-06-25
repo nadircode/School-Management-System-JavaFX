@@ -1,0 +1,12 @@
+#anchorpane {
+    -fx-background-color: white;
+}
+
+#hbox {
+    -fx-background-color: #8a04e1;
+}
+#infolabel {
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 40px;
+}

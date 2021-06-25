@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXCheckBox?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="506.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.HompePage.DeletestudentsController">
+   <children>
+      <Label layoutX="31.0" layoutY="24.0" prefHeight="50.0" prefWidth="254.0" text="Delete Students" textFill="#8a04e1">
+         <font>
+            <Font name="Arial Black" size="28.0" />
+         </font>
+      </Label>
+      <Line endX="137.0" layoutX="135.0" layoutY="74.0" startX="-100.0" stroke="#8a04e1" />
+      <JFXTextField fx:id="idnumb" focusColor="#8a04e1" layoutX="35.0" layoutY="115.0" prefHeight="25.0" prefWidth="236.0" promptText="Id Number" />
+      <Label layoutX="35.0" layoutY="90.0" prefHeight="25.0" prefWidth="189.0" text="Registiration Number">
+         <font>
+            <Font name="Arial Black" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="31.0" layoutY="155.0" prefHeight="25.0" prefWidth="102.0" text="First Name">
+         <font>
+            <Font name="Arial Black" size="15.0" />
+         </font>
+      </Label>
+      <JFXTextField fx:id="fnameS" focusColor="#8a04e1" layoutX="31.0" layoutY="188.0" prefHeight="25.0" prefWidth="236.0" promptText="First Name" />
+      <Label layoutX="31.0" layoutY="241.0" prefHeight="25.0" prefWidth="102.0" text="Last Name">
+         <font>
+            <Font name="Arial Black" size="15.0" />
+         </font>
+      </Label>
+      <JFXTextField fx:id="lnameS" focusColor="#8a04e1" layoutX="31.0" layoutY="271.0" prefHeight="25.0" prefWidth="236.0" promptText="Last Name" />
+      <JFXCheckBox fx:id="areyousure" layoutX="31.0" layoutY="321.0" text="Are You Sure You Want to delete this students" />
+      <JFXButton fx:id="deleteS" layoutX="346.0" layoutY="369.0" onAction="#deleteAction" prefHeight="30.0" prefWidth="80.0" style="-fx-background-color: #8a04e1;" text="Delete" textFill="#f5f0f0">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="exitS" layoutX="474.0" layoutY="356.0" prefHeight="30.0" prefWidth="80.0" style="-fx-background-color: #8a04e1;" text="EXIT" textFill="#f5f0f0" AnchorPane.bottomAnchor="1.0" AnchorPane.rightAnchor="0.0">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>

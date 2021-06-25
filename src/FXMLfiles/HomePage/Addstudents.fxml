@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXDatePicker?>
+<?import com.jfoenix.controls.JFXRadioButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="anchorpane" prefHeight="645.0" prefWidth="600.0" style="-fx-background-color: #fdfcfe;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.HompePage.AddstudentsController">
+   <children>
+      <Label layoutX="21.0" layoutY="14.0" prefHeight="50.0" prefWidth="210.0" text="Add Students" textFill="#8a04e1">
+         <font>
+            <Font name="Arial Black" size="28.0" />
+         </font>
+      </Label>
+      <Line endX="100.0" layoutX="125.0" layoutY="64.0" startX="-100.0" stroke="#8a04e1" />
+      <Label layoutX="21.0" layoutY="85.0" prefHeight="25.0" prefWidth="102.0" text="First Name">
+         <font>
+            <Font name="Arial Black" size="15.0" />
+         </font>
+      </Label>
+      <JFXTextField fx:id="fnameS" focusColor="#8a04e1" layoutX="21.0" layoutY="110.0" prefHeight="25.0" prefWidth="236.0" promptText="First Name" />
+      <Label layoutX="309.0" layoutY="85.0" prefHeight="25.0" prefWidth="102.0" text="Last Name">
+         <font>
+            <Font name="Arial Black" size="15.0" />
+         </font>
+      </Label>
+      <JFXTextField fx:id="lnameS" focusColor="#8a04e1" layoutX="309.0" layoutY="110.0" prefHeight="25.0" prefWidth="236.0" promptText="Last Name" />
+      <Label layoutX="21.0" layoutY="159.0" prefHeight="25.0" prefWidth="102.0" text="Email">
+         <font>
+            <Font name="Arial Black" size="15.0" />
+         </font>
+      </Label>
+      <JFXTextField fx:id="emailS" focusColor="#8a04e1" layoutX="25.0" layoutY="191.0" prefHeight="25.0" prefWidth="236.0" promptText="Email" />
+      <ChoiceBox fx:id="wilaya" layoutX="25.0" layoutY="273.0" prefWidth="150.0" />
+      <Label layoutX="25.0" layoutY="237.0" prefHeight="25.0" prefWidth="102.0" text="Wilaya">
+         <font>
+            <Font name="Arial Black" size="15.0" />
+         </font>
+      </Label>
+      <JFXDatePicker fx:id="datebirth" defaultColor="#8a04e1" layoutX="25.0" layoutY="343.0" />
+      <Label layoutX="24.0" layoutY="323.0" prefHeight="25.0" prefWidth="116.0" text="Date of Birth">
+         <font>
+            <Font name="Arial Black" size="15.0" />
+         </font>
+      </Label>
+      <AnchorPane layoutX="327.0" layoutY="294.0" prefHeight="218.0" prefWidth="223.0">
+         <children>
+            <ImageView fx:id="imageview" fitHeight="218.0" fitWidth="223.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+         </children>
+      </AnchorPane>
+      <JFXButton fx:id="uploadphoto" layoutX="364.0" layoutY="520.0" onAction="#uploadphotoAction" prefHeight="30.0" prefWidth="150.0" style="-fx-background-color: #8a04e1;" text="Upload  Photo" textFill="#f5f0f0">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </JFXButton>
+      <Label layoutX="24.0" layoutY="402.0" prefHeight="25.0" prefWidth="53.0" text="Sexe">
+         <font>
+            <Font name="Arial Black" size="15.0" />
+         </font>
+      </Label>
+      <JFXRadioButton fx:id="manS" layoutX="20.0" layoutY="492.0" prefHeight="17.0" prefWidth="62.0" text="Man" />
+      <JFXRadioButton fx:id="womenS" layoutX="136.0" layoutY="492.0" prefHeight="17.0" prefWidth="80.0" text="Women" />
+      <ImageView fitHeight="50.0" fitWidth="47.0" layoutX="34.0" layoutY="436.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Images/Man.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="50.0" fitWidth="47.0" layoutX="152.0" layoutY="440.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Images/Women.png" />
+         </image>
+      </ImageView>
+      <ChoiceBox fx:id="leveLS" layoutX="25.0" layoutY="557.0" prefWidth="150.0" />
+      <Label layoutX="25.0" layoutY="524.0" prefHeight="25.0" prefWidth="102.0" text="Level">
+         <font>
+            <Font name="Arial Black" size="15.0" />
+         </font>
+      </Label>
+      <JFXButton fx:id="addS" layoutX="439.0" layoutY="615.0" onAction="#AddSAction" prefHeight="30.0" prefWidth="80.0" style="-fx-background-color: #8a04e1;" text="ADD" textFill="#f5f0f0" AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="81.0">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="exitS" layoutX="526.0" layoutY="608.0" prefHeight="30.0" prefWidth="80.0" style="-fx-background-color: #8a04e1;" text="EXIT" textFill="#f5f0f0" AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </JFXButton>
+      <Label layoutX="309.0" layoutY="159.0" prefHeight="25.0" prefWidth="189.0" text="Registiration Number">
+         <font>
+            <Font name="Arial Black" size="15.0" />
+         </font>
+      </Label>
+      <JFXTextField fx:id="idnumb" focusColor="#8a04e1" layoutX="309.0" layoutY="191.0" prefHeight="25.0" prefWidth="236.0" promptText="Id Number" />
+   </children>
+</AnchorPane>

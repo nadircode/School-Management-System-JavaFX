@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="600.0" prefWidth="695.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.HompePage.DashboardController">
+   <children>
+      <AnchorPane fx:id="hbox" layoutX="10.0" layoutY="10.0" prefHeight="153.0" prefWidth="695.0" stylesheets="@../../CSSfiles/Dashboard.css" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label fx:id="studentslabel" layoutX="162.0" layoutY="48.0" prefHeight="58.0" prefWidth="224.0" text="DashBoard" />
+            <ImageView fitHeight="132.0" fitWidth="128.0" layoutX="14.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../Images/Statistiques.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <Label layoutX="14.0" layoutY="239.0" prefHeight="58.0" prefWidth="91.0" text="Students" textFill="#f60436">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Line endX="38.0" endY="71.0" layoutX="75.0" layoutY="273.0" startX="38.0" startY="-82.0" stroke="#f60436" />
+      <AnchorPane layoutX="136.0" layoutY="191.0" prefHeight="153.0" prefWidth="161.0" style="-fx-background-color: #F60436;">
+         <children>
+            <Label layoutX="9.0" layoutY="13.0" prefHeight="46.0" prefWidth="161.0" style="-fx-background-color: #B90927;" text="  Number of Students" textAlignment="CENTER" textFill="#fcfafb" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="nmbrelabel" alignment="CENTER" contentDisplay="CENTER" layoutX="33.0" layoutY="53.0" prefHeight="108.0" prefWidth="161.0" text="0" textAlignment="CENTER" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+               <font>
+                  <Font name="Arial Black" size="32.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="328.0" layoutY="191.0" prefHeight="153.0" prefWidth="187.0" style="-fx-background-color: #F60436;">
+         <children>
+            <Label layoutX="9.0" layoutY="13.0" prefHeight="46.0" prefWidth="161.0" style="-fx-background-color: #B90927;" text="Percent of good Students" textAlignment="CENTER" textFill="#fcfafb" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="45.0" layoutY="65.0" prefHeight="108.0" prefWidth="187.0" text="10 %" textAlignment="CENTER" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+               <font>
+                  <Font name="Arial Black" size="32.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="534.0" layoutY="192.0" prefHeight="153.0" prefWidth="161.0" style="-fx-background-color: #F60436;">
+         <children>
+            <Label layoutX="9.0" layoutY="13.0" prefHeight="46.0" prefWidth="161.0" style="-fx-background-color: #B90927;" text="           Best Level" textAlignment="CENTER" textFill="#fcfafb" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="14.0" layoutY="68.0" prefHeight="108.0" prefWidth="161.0" text="L2" textAlignment="CENTER" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+               <font>
+                  <Font name="Arial Black" size="32.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Label layoutX="14.0" layoutY="428.0" prefHeight="58.0" prefWidth="91.0" text="Classes" textFill="#06f44c">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Line endX="38.0" endY="71.0" layoutX="74.0" layoutY="470.0" startX="38.0" startY="-82.0" stroke="#06f44c" />
+      <AnchorPane layoutX="136.0" layoutY="388.0" prefHeight="153.0" prefWidth="161.0" style="-fx-background-color: #06f44c;">
+         <children>
+            <Label layoutX="9.0" layoutY="13.0" prefHeight="46.0" prefWidth="161.0" style="-fx-background-color: #00621D;" text="  Number of Classes" textAlignment="CENTER" textFill="#fcfafb" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="10.0" layoutY="46.0" prefHeight="108.0" prefWidth="161.0" text="6" textAlignment="CENTER" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+               <font>
+                  <Font name="Arial Black" size="32.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="341.0" layoutY="388.0" prefHeight="153.0" prefWidth="169.0" style="-fx-background-color: #06f44c;">
+         <children>
+            <Label layoutX="9.0" layoutY="13.0" prefHeight="46.0" prefWidth="161.0" style="-fx-background-color: #00621D;" text=" Total length of lessons" textAlignment="CENTER" textFill="#fcfafb" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="-8.0" layoutY="68.0" prefHeight="108.0" prefWidth="161.0" text="18 hours" textAlignment="CENTER" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+               <font>
+                  <Font name="Arial Black" size="32.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

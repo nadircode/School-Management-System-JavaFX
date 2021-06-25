@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="449.0" prefWidth="695.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.HompePage.ShowInfoStudentsController">
+   <children>
+      <VBox layoutX="14.0" layoutY="14.0" prefHeight="449.0" prefWidth="184.0" style="-fx-background-color: #bababa;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label alignment="CENTER" prefHeight="44.0" prefWidth="184.0" text="First Name" textAlignment="CENTER">
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+               <font>
+                  <Font name="System Bold" size="17.0" />
+               </font>
+            </Label>
+            <Line endX="100.5" startX="-100.0" />
+            <Label alignment="CENTER" prefHeight="44.0" prefWidth="184.0" text="Last Name" textAlignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="17.0" />
+               </font>
+            </Label>
+            <Line endX="100.0" startX="-100.0" />
+            <Label alignment="CENTER" prefHeight="44.0" prefWidth="184.0" text="Registiration Number" textAlignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="17.0" />
+               </font>
+            </Label>
+            <Line endX="100.0" startX="-100.0" />
+            <Label alignment="CENTER" prefHeight="44.0" prefWidth="184.0" text="Date of Birth" textAlignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="17.0" />
+               </font>
+            </Label>
+            <Line endX="100.0" startX="-100.0" />
+            <Label alignment="CENTER" prefHeight="44.0" prefWidth="184.0" text="Wilaya" textAlignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="17.0" />
+               </font>
+            </Label>
+            <Line endX="100.0" startX="-100.0" />
+            <Label alignment="CENTER" prefHeight="44.0" prefWidth="184.0" text="Level" textAlignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="17.0" />
+               </font>
+            </Label>
+            <Line endX="100.0" startX="-100.0" />
+            <Label alignment="CENTER" prefHeight="44.0" prefWidth="184.0" text="Email" textAlignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="17.0" />
+               </font>
+            </Label>
+            <Line endX="100.0" startX="-100.0" />
+         </children>
+      </VBox>
+      <Label fx:id="firstnam" alignment="CENTER" layoutX="202.0" prefHeight="44.0" prefWidth="324.0" textAlignment="CENTER" AnchorPane.leftAnchor="202.0" AnchorPane.topAnchor="0.0">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <Label fx:id="lastnam" alignment="CENTER" layoutX="202.0" layoutY="44.0" prefHeight="44.0" prefWidth="324.0" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <Label fx:id="idnumber" alignment="CENTER" layoutX="202.0" layoutY="88.0" prefHeight="44.0" prefWidth="324.0" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <Label fx:id="datebirth" alignment="CENTER" layoutX="202.0" layoutY="132.0" prefHeight="44.0" prefWidth="324.0" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <Label fx:id="wilaya" alignment="CENTER" layoutX="202.0" layoutY="181.0" prefHeight="44.0" prefWidth="324.0" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <Label fx:id="levell" alignment="CENTER" layoutX="202.0" layoutY="225.0" prefHeight="44.0" prefWidth="324.0" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <Label fx:id="emiall" alignment="CENTER" layoutX="202.0" layoutY="269.0" prefHeight="44.0" prefWidth="324.0" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="shwoimage" fitHeight="150.0" fitWidth="209.0" layoutX="495.0" layoutY="291.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="0.0" />
+   </children>
+</AnchorPane>

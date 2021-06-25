@@ -1,0 +1,18 @@
+.button {
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 20px;
+}
+.button:hover{
+    -fx-background-color: white;
+    -fx-text-fill: #8a04e1;
+}
+#menubar {
+    -fx-background-color: #8a04e1;
+}
+
+
+
+#anchorpaneinfo{
+    -fx-background-color : white;
+}

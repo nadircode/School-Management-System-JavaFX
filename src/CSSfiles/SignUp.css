@@ -1,0 +1,12 @@
+#loginbtn{
+    -fx-background-color:  #8a04e1;
+    -fx-text-fill: white;
+    -fx-font-size: 15px ;
+    -fx-font-weight: bold;
+}
+#signupbtn {
+    -fx-background-color:  #8a04e1;
+    -fx-text-fill: white;
+    -fx-font-size: 15px ;
+    -fx-font-weight: bold;
+}

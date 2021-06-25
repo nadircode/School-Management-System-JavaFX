@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="anchorpane" prefHeight="600.0" prefWidth="695.0" stylesheets="@../../CSSfiles/Students.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.HompePage.StudentsController">
+   <children>
+      <AnchorPane fx:id="hbox" prefHeight="153.0" prefWidth="695.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label fx:id="studentslabel" layoutX="162.0" layoutY="48.0" prefHeight="58.0" prefWidth="186.0" text="Students" />
+            <ImageView fitHeight="132.0" fitWidth="128.0" layoutX="14.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../Images/Students.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <JFXButton fx:id="addbtn" layoutX="34.0" layoutY="174.0" onAction="#addAction" prefHeight="41.0" prefWidth="206.0" text="Add students" />
+      <JFXButton fx:id="deletebtn" layoutX="445.0" layoutY="175.0" onAction="#deleteAction" prefHeight="41.0" prefWidth="206.0" text="Delete Student" />
+      <TableView fx:id="TableshowS" layoutX="14.0" layoutY="255.0" prefHeight="378.0" prefWidth="695.0" style="-fx-border-color: #8a04e1;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+        <columns>
+          <TableColumn fx:id="id_S" prefWidth="181.0" text="Registiration Number" />
+          <TableColumn fx:id="fname_S" prefWidth="217.0" text="First Name" />
+            <TableColumn fx:id="lname_S" prefWidth="231.0" text="Last Name" />
+            <TableColumn fx:id="levelT" minWidth="0.0" prefWidth="64.0" text="Level" />
+        </columns>
+      </TableView>
+      <FontAwesomeIconView glyphName="PLUS" layoutX="201.0" layoutY="203.0" size="20" wrappingWidth="18.428571701049805" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,8 @@
+#hbox {
+    -fx-background-color: #8a04e1;
+}
+#studentslabel{
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 40px;
+}

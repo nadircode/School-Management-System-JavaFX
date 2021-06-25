@@ -1,0 +1,24 @@
+#anchorpane {
+    -fx-background-color: white;
+}
+#hbox {
+    -fx-background-color: #8a04e1;
+}
+#studentslabel{
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 40px;
+
+}
+#addbtn{
+    -fx-background-color: #8a04e1;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 20px;
+}
+#deletebtn{
+    -fx-background-color: #8a04e1;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 20px;
+}
