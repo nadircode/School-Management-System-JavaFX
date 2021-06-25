@@ -2,7 +2,7 @@
 Demo for School Management System developed with javaFx And MySQL
 ## Screenshots
 
-![Github Logo](https://github.com/nadircode/School-Management-System-JavaFX/tree/main/screenshots/1.jpg?raw=true)
+![Screenshot](1.jpg)
 ![Github Logo](https://github.com/nadircode/School-Management-System-JavaFX/tree/main/screenshots/2.jpg?raw=true)
 ![Github Logo](https://github.com/nadircode/School-Management-System-JavaFX/tree/main/screenshots/3.jpg?raw=true)
 ![Github Logo](https://github.com/nadircode/School-Management-System-JavaFX/tree/main/screenshots/4.jpg?raw=true)
